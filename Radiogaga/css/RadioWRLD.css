@@ -1,0 +1,389 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url('../img/Muzieknoot.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: red;
+    color: white;
+}
+
+p   {
+
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1  {
+
+    color: white;
+}
+
+#header {
+
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    height: 70px;
+    width: 100%;  
+    background-color: black;  
+    padding: 0 0px;   
+}
+
+#logo {
+
+    display: flex;
+    align-items: center;  
+    color: white;
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;  
+}
+
+#logo img {
+
+    height: 70px;  
+    width: auto;  
+}
+
+#main-nav ul {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#main-nav li a {
+
+    background-color: purple;
+    color: black;
+    padding: 26px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#main-nav li a:hover    {
+
+    color: aqua;
+}
+
+.background-video   {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 98.88vw;
+    height: auto;
+}
+
+.container  {
+
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;  
+    
+}
+
+.text-box   {
+
+
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    width: 400px;
+    min-height: 300px; 
+    padding: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+    border-color: white;
+}
+
+.contact-page {
+
+    color: white;
+}
+
+.contact-page ul   {
+
+    margin: 0;
+    padding: 7px;
+}
+
+.contact-page li    {
+
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page form {
+
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; /* Voeg ruimte tussen de velden toe */
+}
+
+.contact-page li {
+    display: flex;
+    flex-direction: column; /* Zorg ervoor dat het label boven het invoerveld komt */
+    
+}
+
+.contact-page input, .contact-page select {
+    width: 100%; /* Maak de invoervelden de volledige breedte van hun container */
+    padding: 8px;
+    margin-top: 5px; 
+}
+
+select  {
+
+    background-color: purple;
+    padding: 2px;
+    border: none;
+    border-radius: 8px;
+    width: 1000px;
+    height: 35px;
+}
+
+input   {
+
+    background-color: purple;
+    border: none;
+}
+
+input[type="text"] {
+    width: 1000px;
+    height: 35px;
+
+}
+
+input[type="email"] {
+    width: 1000px;
+    height: 35px;
+
+}
+
+input[type="submit"] {
+    padding: 4px 12px;                
+    font-size: 12px;                    
+    background-color: purple;          
+    color: white;                       
+    border: none;                       
+    border-radius: 5px;                 
+    cursor: pointer;                   
+    transition: background-color 0.3s;  
+    width: 150px;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua;          
+}
+
+input[type="reset"] {
+    padding: 4px 12px;               
+    font-size: 12px;                    
+    background-color: purple;          
+    color: white;                       
+    border: none;                       
+    border-radius: 5px;                 
+    cursor: pointer;                   
+    transition: background-color 0.3s;  
+    width: 150px;
+
+}
+
+input[type="reset"]:hover {
+    background-color: aqua;          
+}
+
+input    {
+
+    border-radius: 8px;
+}
+
+.container-about-me {
+
+    background-color: white;
+    opacity: 1.0;
+    margin: 30px;
+    height: 500px;
+    width: 400px;
+    margin-top: -470px;
+}
+
+.container-about-me p   {
+
+color: black;
+font-size: 11px;
+
+}
+
+.container-about-me h1  {
+
+    color: black;
+    font-size: 20px;
+}
+
+.container-about-me h2  {
+
+    font-size: 14px;
+}
+
+.container-about-me ol  {
+
+    font-size: 11px;
+}
+
+.Jens   {
+
+    text-align: right;
+    margin: 30px;
+}
+
+.muzieksmaak    {
+
+    text-align-last: center;
+    margin-top: -300px;
+    font-size: 16px;
+}
+
+.muzieksmaak button {
+
+    background-color: purple;
+}
+
+button {
+
+    background-color: purple; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 12px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+
+    background-color: aqua; 
+}
+
+.Album3 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.Album4 {
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.Album4 video {
+
+    z-index: 0;
+    width: 700px;
+    height: auto;
+    padding: 200px;
+    margin: 100px;
+    position: absolute;
+
+}
+
+.main-container {
+    width: 900px;
+    display: flex;
+    margin:0 auto;
+}
+
+.albums {
+    width: 300px;
+}
+
+.playlist-container {
+    width: 600px;
+}
+
+.playlist-container video {
+    width: 100%;
+}
+
+.Table-artist {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.Table-artist p {
+
+    color: black;
+
+}
+
+.Table-artist h1 {
+
+    color: black;
+    font-size: 16px;
+
+}
+
+
+.Table-artist td {
+    background-color: white;  
+    color: black; 
+    height: 30px;   /* Stelt de hoogte van de rij in */
+    width: 260px;
+    padding: 10px;  /* Verhoogt de ruimte binnen de cellen */
+}
+
+.Table-artist img   {
+
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.popartist-table {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 89vh;           
+}
+
+
+.popartist-table td {
+    background-color: white;  
+    color: black;  
+    height: 30px;   
+    width: 260px;
+    padding: 10px;  /* Verhoogt de ruimte binnen de cellen */
+}
+
+
+.playlist-container td {
+    background-color: white;  
+    color: black;  
+    height: 30px;   
+    width: 260px;
+    padding: 10px;  /* Verhoogt de ruimte binnen de cellen */
+}
+  
